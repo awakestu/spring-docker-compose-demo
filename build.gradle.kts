@@ -36,7 +36,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
-    // NODE: mind the scope. `developmentOnly` as stated in most examples won't enable docker-compose for tests.
+    // NOTE: mind the scope. `developmentOnly` as stated in most examples won't enable docker-compose for tests.
     testAndDevelopmentOnly("org.springframework.boot:spring-boot-docker-compose")
 }
 
