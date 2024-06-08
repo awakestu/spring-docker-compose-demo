@@ -1,0 +1,7 @@
+spring:
+  application.name: spring-docker-compose-demo
+  docker:
+    compose:
+      # NOTE: for non default compose file location. Also, docker-compose is enabled by default for dev config
+      # and disabled (for some non-obvious reason) for tests.
+      file: docker/compose.yaml
